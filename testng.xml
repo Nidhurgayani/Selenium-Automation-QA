@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Week8 Framework Suite">
+    <test name="All Tests">
+        <classes>
+            <class name="org.example.tests.Day3_LoginPage_ReusableMethods"/>
+            <class name="org.example.tests.Day4_LoginProducts_Test"/>
+            <class name="org.example.tests.Day5_WebDriverWait_Test"/>
+            <class name="org.example.tests.Day6_TestNG_POM_Assertions"/>
+            <class name="org.example.tests.Day7_FullFramework_Test"/>
+        </classes>
+    </test>
+</suite>
