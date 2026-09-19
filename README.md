@@ -14,6 +14,7 @@ This repository documents my hands-on journey building Selenium WebDriver and Te
 * Git & GitHub
 
 ## 📂 Full Project Structure
+```
 Week7-Selenium-Automation
 ├── pom.xml
 ├── testng.xml
@@ -48,7 +49,7 @@ Week7-Selenium-Automation
 │                       ├── Day5_WebDriverWait_Test.java
 │                       ├── Day6_TestNG_POM_Assertions.java
 │                       └── Day7_FullFramework_Test.java
-
+```
 ---
 
 ## 🚀 Week 7 — Selenium & TestNG Fundamentals
