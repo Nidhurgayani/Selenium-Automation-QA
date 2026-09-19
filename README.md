@@ -66,3 +66,32 @@ Week7-Selenium-Automation
 │                   ├── Day6_TestNG_Assertions.java
 │                   ├── Day6_Selenium_Assertions.java
 │                   └── Day7_SauceDemo_Automation.java
+
+
+# Selenium POM Automation Framework — SauceDemo
+
+A test automation framework built with **Java, Selenium WebDriver, and TestNG**, 
+following the **Page Object Model (POM)** design pattern, to test the login, 
+product navigation, and cart functionality of the [SauceDemo](https://www.saucedemo.com/) 
+e-commerce web application.
+
+## 🎯 Project Overview
+
+This framework demonstrates a structured approach to UI test automation:
+- Each application page (Login, Products, Cart) is modeled as its own class
+- Common wait logic is centralized in a shared `BasePage`
+- Tests are kept short and readable by delegating all element interactions 
+  to page objects
+- The full suite runs as one execution via TestNG's `testng.xml`
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Java | Core programming language |
+| Selenium WebDriver | Browser automation |
+| TestNG | Test execution & assertions |
+| Maven | Dependency management & build |
+| IntelliJ IDEA | Development environment |
+
+## 📁 Project Structure
