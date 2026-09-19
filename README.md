@@ -15,45 +15,39 @@ This repository documents my hands-on journey building Selenium WebDriver and Te
 
 ## 📂 Full Project Structure
 Week7-Selenium-Automation
-│
 ├── pom.xml
 ├── testng.xml
 ├── .gitignore
-│
 ├── src
-│ ├── main
-│ │ └── java
-│ │ └── org
-│ │ └── example
-│ │ └── Main.java
-│ │
-│ └── test
-│ └── java
-│ └── org
-│ └── example
-│ ├── Day2_Selenium_WebDriver.java
-│ ├── Day3_Selenium_Locators.java
-│ ├── Day4_Selenium_WebElements.java
-│ ├── Day5_TestNG_Basic.java
-│ ├── Day5_Selenium_TestNG.java
-│ ├── Day6_TestNG_Assertions.java
-│ ├── Day6_Selenium_Assertions.java
-│ ├── Day7_SauceDemo_Automation.java
-│ │
-│ ├── pages/
-│ │ ├── BasePage.java
-│ │ ├── LoginPage.java
-│ │ ├── ProductsPage.java
-│ │ └── CartPage.java
-│ │
-│ └── tests/
-│ ├── Day2_POM_LoginTest.java
-│ ├── Day3_LoginPage_ReusableMethods.java
-│ ├── Day4_LoginProducts_Test.java
-│ ├── Day5_WebDriverWait_Test.java
-│ ├── Day6_TestNG_POM_Assertions.java
-│ └── Day7_FullFramework_Test.java
-
+│   ├── main
+│   │   └── java
+│   │       └── org
+│   │           └── example
+│   │               └── Main.java
+│   └── test
+│       └── java
+│           └── org
+│               └── example
+│                   ├── Day2_Selenium_WebDriver.java
+│                   ├── Day3_Selenium_Locators.java
+│                   ├── Day4_Selenium_WebElements.java
+│                   ├── Day5_TestNG_Basic.java
+│                   ├── Day5_Selenium_TestNG.java
+│                   ├── Day6_TestNG_Assertions.java
+│                   ├── Day6_Selenium_Assertions.java
+│                   ├── Day7_SauceDemo_Automation.java
+│                   ├── pages
+│                   │   ├── BasePage.java
+│                   │   ├── LoginPage.java
+│                   │   ├── ProductsPage.java
+│                   │   └── CartPage.java
+│                   └── tests
+│                       ├── Day2_POM_LoginTest.java
+│                       ├── Day3_LoginPage_ReusableMethods.java
+│                       ├── Day4_LoginProducts_Test.java
+│                       ├── Day5_WebDriverWait_Test.java
+│                       ├── Day6_TestNG_POM_Assertions.java
+│                       └── Day7_FullFramework_Test.java
 
 ---
 
